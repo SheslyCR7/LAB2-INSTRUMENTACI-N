@@ -234,22 +234,22 @@ Se observó un aumento significativo en la conductancia durante los momentos de 
 
 Cuando una persona realiza una inspiración profunda se activa el sistema nervioso autónomo, especialmente la rama simpática. Esta activación genera cambios fisiológicos en el cuerpo, entre ellos un aumento en la actividad de las glándulas sudoríparas presentes en la piel.
 
-La respuesta galvánica cutánea (GSR) mide precisamente los cambios en la conductancia eléctrica de la piel. Cuando las glándulas sudoríparas se activan, aumenta la cantidad de humedad en la superficie de la piel, lo que disminuye su resistencia eléctrica y, en consecuencia, aumenta su conductancia. Por esta razón, durante una inspiración profunda suele observarse un aumento en la señal de GSR.
+La respuesta galvánica cutánea (GSR) mide precisamente los cambios en la conductancia eléctrica de la piel. Cuando las glándulas sudoríparas se activan, aumenta la cantidad de humedad en la superficie de la piel, lo que disminuye su resistencia eléctrica y, en consecuencia, aumenta su conductancia. Por esta razón, durante una inspiración profunda suele observarse un aumento en la señal de GSR [3].
 
-Además, la respiración profunda puede producir una breve activación fisiológica relacionada con la regulación cardiovascular y la respuesta autonómica del organismo, lo que también contribuye a que la señal de conductancia cutánea presente un incremento temporal (Boucsein, 2012; Loggia et al., 2011).
+Además, la respiración profunda puede producir una breve activación fisiológica relacionada con la regulación cardiovascular y la respuesta autonómica del organismo, lo que también contribuye a que la señal de conductancia cutánea presente un incremento temporal [1].
 
-En resumen, el aumento de la GSR durante una inspiración profunda se debe principalmente a la activación del sistema nervioso simpático y al incremento de la actividad de las glándulas sudoríparas, lo que modifica la conductividad eléctrica de la piel.
+En resumen, el aumento de la GSR durante una inspiración profunda se debe principalmente a la activación del sistema nervioso simpático y al incremento de la actividad de las glándulas sudoríparas, lo que modifica la conductividad eléctrica de la piel [3].
+
 
 ### Pregunta 2: ¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?
 
-El uso de la respuesta galvánica cutánea (GSR) como indicador de estrés tiene varias ventajas. En primer lugar, es una técnica **no invasiva**, ya que solo requiere colocar electrodos sobre la piel para medir cambios en la conductancia cutánea. Además, es relativamente fácil de implementar con circuitos simples y sensores de bajo costo, lo que permite su uso en dispositivos portátiles o vestibles. Otra ventaja importante es que la GSR responde rápidamente a cambios en el sistema nervioso autónomo, por lo que puede reflejar variaciones en el nivel de activación fisiológica casi en tiempo real.
+El uso de la respuesta galvánica cutánea (GSR) como indicador de estrés tiene varias ventajas. En primer lugar, es una técnica **no invasiva**, ya que solo requiere colocar electrodos sobre la piel para medir cambios en la conductancia cutánea. Además, es relativamente fácil de implementar con circuitos simples y sensores de bajo costo, lo que permite su uso en dispositivos portátiles o vestibles. Otra ventaja importante es que la GSR responde rápidamente a cambios en el sistema nervioso autónomo, por lo que puede reflejar variaciones en el nivel de activación fisiológica casi en tiempo real [3].
 
 Sin embargo, también presenta algunas limitaciones. Una de las principales es que la GSR **no es un indicador exclusivo del estrés**, ya que la conductancia de la piel también puede cambiar por otros factores como la temperatura, el movimiento, la humedad de la piel o incluso estímulos emocionales distintos al estrés. Esto puede generar interferencias o interpretaciones erróneas si no se analizan los datos junto con otras señales fisiológicas.
 
-Otra desventaja es que la señal puede variar considerablemente entre personas, debido a diferencias fisiológicas individuales en la actividad de las glándulas sudoríparas o en la conductividad de la piel. Por esta razón, en aplicaciones más avanzadas suele combinarse la GSR con otras mediciones fisiológicas como frecuencia cardíaca o variabilidad de la frecuencia cardíaca para obtener estimaciones más confiables del estado de estrés (Boucsein, 2012; Figner & Murphy, 2011).
+Otra desventaja es que la señal puede variar considerablemente entre personas, debido a diferencias fisiológicas individuales en la actividad de las glándulas sudoríparas o en la conductividad de la piel. Por esta razón, en aplicaciones más avanzadas suele combinarse la GSR con otras mediciones fisiológicas como frecuencia cardíaca o variabilidad de la frecuencia cardíaca para obtener estimaciones más confiables del estado de estrés [12].
 
 En general, la GSR es una herramienta útil para evaluar cambios en la activación fisiológica del organismo, pero debe interpretarse con cuidado y preferiblemente en conjunto con otras variables fisiológicas.
-
 
 
 # BIBLIOGRAFÍA
