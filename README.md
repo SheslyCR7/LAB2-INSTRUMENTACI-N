@@ -177,6 +177,17 @@ Se observó un aumento significativo en la conductancia durante los momentos de 
 
 # BIBLIOGRAFIA
 
+1. Loggia, M. L., Juneau, M., & Bushnell, C. M. (2011). Autonomic responses to heat pain: Heart rate, skin conductance, and their relation to verbal ratings and stimulus intensity. Pain, 152(3), 592–598. https://doi.org/10.1016/j.pain.2010.11.032
+2. Breimhorst, M., Sandrock, S., Fechir, M., Hausenblas, N., Geber, C., & Birklein, F. (2010). Do intensity ratings and skin conductance responses reliably discriminate between different stimulus intensities in experimentally induced pain? Journal of Pain, 12(1), 61–70. https://doi.org/10.1016/j.jpain.2010.04.012
+3. Boucsein, Wolfram. (2013). Electrodermal activity: Second edition. 10.1007/978-1-4614-1126-0.
+4. Dascălu, L. C., Babiș, C., Chivu, O., Iacobescu, G., Alecusan, A. M., & Semenescu, A. (2019). Measurements of galvanic skin response on subjects affected by stress. Acta Universitatis Cibiniensis Technical Series, 71(1), 25–29. https://doi.org/10.2478/aucts-2019-0006
+5. Phadke, A. N., Harasheh, K., & Gill, S. (2025). Wearable IOT-Enabled Galvanic Skin Response Device for objective pain and stress monitoring: hardware design and prototype development. Sensors, 26(1), 116. https://doi.org/10.3390/s26010116
+6. Swetha, K., & Kiran, K. V. D. (2025). Kalman‐Normalized GSR Analysis for Real‐Time Stress Quantification in wearable systems. International Journal of Telemedicine and Applications, 2025(1), 8828363. https://doi.org/10.1155/ijta/8828363
+7. De Luca, PA, Sánchez A., ME, Pérez Olan, G., & Leija Salas, L. (2004). Medición integral del estrés crónico. Revista Mexicana De Ingeniería Biomédica , 25 (1), 60–66. Recuperado de https://mail.rmib.com.mx/index.php/rmib/article/view/263
+8. Cruz, J. R. J., & River, M. a. G. (2019, November 29). ESTIMACIÓN DEL ESTRÉS POR MEDIO DE LA ENTROPÍA DE LA VARIABILIDAD DE LA FRECUENCIA CARDÍACA y LA RESPUESTA GALVÁNICA DE LA PIEL (ESTIMATION OF STRESS THROUGH ENTROPY OF VARIABILITY OF CARDIAC FREQUENCY AND GALVANIC SKIN RESPONSE). Jiménez Cruz | Pistas Educativas. https://pistaseducativas.celaya.tecnm.mx/index.php/pistas/article/view/2093
+9. Sergio, A. R. (2016). Clasificación de niveles de estrés utilizando señales fisiológicas. https://e-archivo.uc3m.es/entities/publication/bf295ba9-911b-4bab-8632-cce450c21820
+10. Varón, D. J., García, I. B., & Gupta, B. B. (2023). Análisis del estrés, atención, interés y conexión emocional en la enseñanza superior presencial y online: un estudio neurotecnológico. Dialnet. https://dialnet.unirioja.es/servlet/articulo?codigo=8947684
+11. Vega, A., Bilbao, M., & Falappa, M. A. (2025, April 1). Workplace stress assessment using emotional recognition and heart rate techniques. https://sedici.unlp.edu.ar/handle/10915/178019
 
 
 
