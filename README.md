@@ -111,7 +111,7 @@ $$
 - $R_1 = 68\,k\Omega$ es la resistencia limitadora  
 - $R_{piel}$ es la resistencia de la piel del sujeto  
 
-De acuerdo con estudios sobre actividad electrodérmica, la resistencia de la piel normalmente se encuentra en un rango aproximado entre **300 kΩ y 2 MΩ** (Boucsein, 2012).
+De acuerdo con estudios sobre actividad electrodérmica, la resistencia de la piel normalmente se encuentra en un rango aproximado entre **300 kΩ y 2 MΩ** [3].
 
 Para verificar la seguridad del sistema se analiza el **peor de los casos**, lo que quiere decir, cuando la resistencia de la piel se aproxima a cero:
 
@@ -135,24 +135,24 @@ $$
 I_{max} = 0.0485\,mA
 $$
 
-Esto corresponde aproximadamente a **49 µA**, lo cual es un valor muy bajo y se encuentra muy por debajo del límite de **1 mA** utilizado comúnmente como referencia de seguridad en aplicaciones biomédicas de medición superficial (Webster, 2010).
+Esto corresponde aproximadamente a **49 µA**, lo cual es un valor muy bajo y se encuentra muy por debajo del límite de **1 mA** utilizado comúnmente como referencia de seguridad en aplicaciones biomédicas de medición superficial [13].
 
 Por lo tanto, el circuito diseñado limita adecuadamente la corriente que puede circular por el sujeto, garantizando condiciones seguras de operación.
 
 
 ## 6.2 Cumplimiento de normas de seguridad (IEC 60479)
 
-La norma IEC 60479 describe los efectos que puede producir la corriente eléctrica cuando circula a través del cuerpo humano, estableciendo diferentes zonas de riesgo dependiendo de la magnitud de la corriente y del tiempo de exposición.
+La norma IEC 60479 describe los efectos que puede producir la corriente eléctrica cuando circula a través del cuerpo humano, estableciendo diferentes zonas de riesgo dependiendo de la magnitud de la corriente y del tiempo de exposición [14].
 
-De acuerdo con esta norma, las corrientes eléctricas muy pequeñas, del orden de microamperios o fracciones de miliamperio, generalmente no producen efectos fisiológicos perceptibles en el cuerpo humano (IEC 60479-1, 2018). Los efectos más notorios, como contracciones musculares o dificultad para soltar un conductor, aparecen cuando las corrientes alcanzan valores mayores en el rango de miliamperios.
+De acuerdo con esta norma, las corrientes eléctricas muy pequeñas, del orden de microamperios o fracciones de miliamperio, generalmente no producen efectos fisiológicos perceptibles en el cuerpo humano [14]. Los efectos más notorios, como contracciones musculares o dificultad para soltar un conductor, aparecen cuando las corrientes alcanzan valores mayores en el rango de miliamperios.
 
 En el sistema implementado para esta práctica, la corriente máxima que podría circular por el sujeto se encuentra aproximadamente entre 0.049 mA y 0.074 mA, dependiendo del voltaje de alimentación. Estos valores son considerablemente menores que los niveles asociados con efectos fisiológicos peligrosos.
 
-Además, el circuito incorpora una resistencia limitadora en serie, lo cual es una práctica ampliamente utilizada en instrumentación biomédica para garantizar la seguridad del paciente y evitar que corrientes peligrosas puedan circular en caso de fallas en el sistema (Webster, 2010).
+Además, el circuito incorpora una resistencia limitadora en serie, lo cual es una práctica ampliamente utilizada en instrumentación biomédica para garantizar la seguridad del paciente y evitar que corrientes peligrosas puedan circular en caso de fallas en el sistema [13].
 
 Otro aspecto importante es que el sistema funciona con bajo voltaje (3.3 V o 5 V), lo que reduce aún más el riesgo eléctrico.
 
-Teniendo en cuenta lo anterior, se puede afirmar que el diseño del circuito cumple con los principios de seguridad descritos en la norma IEC 60479, ya que la corriente que puede circular a través del cuerpo humano se mantiene muy por debajo de los niveles que podrían representar algún riesgo para el usuario.
+Teniendo en cuenta lo anterior, se puede afirmar que el diseño del circuito cumple con los principios de seguridad descritos en la norma IEC 60479, ya que la corriente que puede circular a través del cuerpo humano se mantiene muy por debajo de los niveles que podrían representar algún riesgo para el usuario[14].
 
 # PARTE A
 ## Revisión bibliográfica
