@@ -250,7 +250,7 @@ Otra desventaja es que la señal puede variar considerablemente entre personas, 
 
 En general, la GSR es una herramienta útil para evaluar cambios en la activación fisiológica del organismo, pero debe interpretarse con cuidado y preferiblemente en conjunto con otras variables fisiológicas.
 
-# BIBLIOGRAFIA
+
 
 # BIBLIOGRAFÍA
 
