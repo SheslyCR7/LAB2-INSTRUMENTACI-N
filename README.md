@@ -1,5 +1,5 @@
 # LAB2-INSTRUMENTACION
-INTEGRANTES: Shesly Colorado 5600756 - Santiago Mora 5600775 - Daniel
+INTEGRANTES: Shesly Colorado 5600756 - Santiago Mora 5600775 - Daniel Herrera
 
 # INTRODUCIÓN
 
@@ -189,6 +189,9 @@ Se observó un aumento significativo en la conductancia durante los momentos de 
 10. Varón, D. J., García, I. B., & Gupta, B. B. (2023). Análisis del estrés, atención, interés y conexión emocional en la enseñanza superior presencial y online: un estudio neurotecnológico. Dialnet. https://dialnet.unirioja.es/servlet/articulo?codigo=8947684
 11. Vega, A., Bilbao, M., & Falappa, M. A. (2025, April 1). Workplace stress assessment using emotional recognition and heart rate techniques. https://sedici.unlp.edu.ar/handle/10915/178019
 
+
+
+INTEGRANTES: Shesly Colorado - Santiago Mora  - Daniel Herrera
 
 
 
