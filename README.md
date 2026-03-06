@@ -17,8 +17,6 @@
  - ESP32
 
 ----
-# 1.  I
-
 # INTRODUCIÓN
 
 La actividad electrodérmica (EDA) hace referencia a los cambios eléctricos que ocurren en la piel debido a la actividad del sistema nervioso autónomo. Estos cambios están asociados principalmente con la actividad de las glándulas sudoríparas y pueden medirse a través de la conductancia cutánea, también conocida como respuesta galvánica de la piel (GSR).
@@ -96,20 +94,29 @@ Las zonas con mayor densidad de glándulas sudoríparas son:
 · Cables de conexión
 
 # DISEÑO DEL SISTEMA
+Para la elaboración de esta práctica de laboratorio se realizó el siguiente montaje para la captura de la señal de GSR:
 
-El sistema de medición se basa en un divisor resistivo donde la piel actúa como una resistencia variable.
+<p align="center"> <img width="253" height="253" alt="image" src="https://github.com/user-attachments/assets/f8f58cac-d576-49e8-98c9-3aae4ef29f0c" /> </p> <p align="center"> Fig. 1. Montaje del circuito para la captura de GSR </p>
+
+Para el diseño ergonómico del sistema mostrado en la Figura 1 se utilizó un microcontrolador ESP32  y como fuente 3 pila AAA los cuales estaban ubicados en una cinta velcro para adaparla al brazo como se muestra en la figura 2,y un sensor de humedad del suelo YL-100 adaptado en la palma de la mano para medir variaciones en la conductancia de la piel como se observa en la figuras 3.
+
+<p align="center"> <img width="260" height="340" alt="image" src="https://github.com/user-attachments/assets/423da712-bb5e-430d-8ebf-56f6a756dbd8" /> </p> <p align="center"> Fig. 2. Ubicacion de microcontrolador y fuente</p>
+<p align="center"> <img width="253" height="350" alt="image" src="https://github.com/user-attachments/assets/e14c7ebe-27bc-4b1c-860f-9c887c4defbc" />
+ </p> <p align="center"> Fig. 3. Ubicacion del sensor</p>
+
+El sistema de medición se basa en un divisor resistivo, donde la piel del sujeto actúa como una resistencia variable.
 
 El circuito diseñado utiliza:
 
-· Una resistencia fija de 68 kΩ
+Una resistencia fija de 68 kΩ
 
-· La resistencia de la piel Rskin
+La resistencia de la piel (Rskin)
 
-· Un capacitor de 1 µF para filtrar ruido
+Un capacitor de 1 µF para el filtrado de ruido
 
-El circuito funciona de la siguiente forma:
+El circuito funciona de la siguiente manera:
 
-Cuando la conductancia de la piel aumenta debido al sudor, la resistencia disminuye y el voltaje medido cambia. Este cambio es leído por el microcontrolador.
+Cuando la conductancia de la piel aumenta debido a la presencia de sudor, la resistencia de la piel disminuye y el voltaje medido en el divisor resistivo cambia. Esta variación de voltaje es leída por el microcontrolador, permitiendo registrar los cambios en la conductancia cutánea asociados a la actividad electrodérmica.
 
 # 6. Cálculo de seguridad eléctrica
 
@@ -244,16 +251,6 @@ El sistema envía un mensaje indicando el nivel de estrés:
 Durante la prueba, el sujeto respiro bruscamente mientras se registraba la señal GSR.
 
 Se observó un aumento significativo en la conductancia durante los momentos de mayor concentración.
-# MONTAJE EXPERIMENTAL
-Para la elaboracíon de esta practica de laboratorio se realizo el siguiente montaje para la captura del GRS:
-<p align="center">
-  <img width="395" height="253" alt="image" src="https://github.com/user-attachments/assets/f8f58cac-d576-49e8-98c9-3aae4ef29f0c" />
-
-</p>
-<p align="center">
-Fig 1. Montaje circuito para la captura de GRS
- </p>
-  Para el diñeno ergonomico del montaje mostrado en la figura 1 utilizamos una ESP32 y un sensor de humedad del suelo YL-100 ,para 
 # ANALISIS DE RESULTADOS
 
 # PREGUNTAS DE DISCUSIÒN 
