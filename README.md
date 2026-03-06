@@ -237,6 +237,24 @@ Durante la prueba, el sujeto respiró bruscamente mientras se registraba la señ
 Se observó un aumento significativo en la conductancia durante los momentos de mayor concentración.
 # ANALISIS DE RESULTADOS
 
+Durante el desarrollo de la práctica se logró implementar un sistema de medición de la respuesta galvánica cutánea (GSR) utilizando un sensor de humedad del suelo YL-100, un microcontrolador ESP32 y una interfaz de visualización en MATLAB. El sistema permitió registrar variaciones en el voltaje del divisor resistivo asociado a cambios en la conductancia de la piel del sujeto.
+
+En las primeras pruebas realizadas en condiciones de reposo se observó una señal relativamente estable, correspondiente al nivel basal de conductancia cutánea (Skin Conductance Level, SCL). Posteriormente, al realizar estímulos fisiológicos como respiración profunda, se registraron incrementos temporales en la señal, los cuales corresponden a respuestas fásicas de la conductancia cutánea (Skin Conductance Response, SCR). Este comportamiento es consistente con lo descrito en la literatura, donde la activación del sistema nervioso simpático produce un aumento en la actividad de las glándulas sudoríparas y, por lo tanto, un incremento en la conductancia de la piel [3][4].
+
+
+
+https://github.com/user-attachments/assets/b86e63c6-e24e-4731-a15f-1e6b5f19fdb3
+
+
+
+Al momento de la presentación final del laboratorio se presentó una limitación experimental importante, ya que el sensor utilizado sufrió un deterioro que provocó una alta sensibilidad al ruido eléctrico y a las variaciones de contacto con la piel. Como consecuencia, la señal registrada presentó fluctuaciones irregulares y picos abruptos que no correspondían a cambios fisiológicos reales del sujeto.
+
+Este comportamiento fue causado por que el sensor tuvo un daño en sus pines de conexión, por ende, al ser al ultimo minuto toco improvisar y soldar con cable de protoboard, esto hizo que el sensor fuera mucho más sensible, por eso al momento de tomar la señal aparecian picos o saturaciones sin sentido.
+
+A pesar de esta limitación, el sistema permitió evidenciar el principio fundamental de funcionamiento de la medición de GSR: los cambios en la actividad del sistema nervioso autónomo se reflejan en variaciones en la conductancia eléctrica de la piel. Además, se pudo observar que estímulos fisiológicos como la respiración profunda generan incrementos transitorios en la señal, seguidos por un retorno gradual al nivel basal, lo cual coincide con el comportamiento descrito en estudios sobre actividad electrodérmica [1][3].
+
+Finalmente, el experimento permitió identificar aspectos importantes para el diseño de dispositivos biomédicos, como la necesidad de utilizar electrodos apropiados (por ejemplo Ag/AgCl), sistemas de filtrado adecuados y sensores diseñados específicamente para señales fisiológicas, con el fin de reducir el ruido y mejorar la calidad de la señal adquirida. Estas consideraciones son fundamentales para el desarrollo de sistemas vestibles confiables para la estimación del estrés mediante GSR.
+
 # PREGUNTAS DE DISCUSIÓN 
 ### Pregunta 1: ¿A qué se debe que una inspiración profunda incremente la magnitud de la respuesta galvánica cutánea (GSR)?
 
