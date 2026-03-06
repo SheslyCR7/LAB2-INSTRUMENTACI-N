@@ -276,35 +276,35 @@ Otra desventaja es que la señal puede variar considerablemente entre personas, 
 En general, la GSR es una herramienta útil para evaluar cambios en la activación fisiológica del organismo, pero debe interpretarse con cuidado y preferiblemente en conjunto con otras variables fisiológicas.
 
 
-# BIBLIOGRAFÍA
+# REFERENCIAS 
 
-1. Loggia, M. L., Juneau, M., & Bushnell, C. M. (2011). Autonomic responses to heat pain: Heart rate, skin conductance, and their relation to verbal ratings and stimulus intensity. *Pain*, 152(3), 592–598. https://doi.org/10.1016/j.pain.2010.11.032
+[1] Loggia, M. L., Juneau, M., & Bushnell, C. M. (2011). Autonomic responses to heat pain: Heart rate, skin conductance, and their relation to verbal ratings and stimulus intensity. *Pain*, 152(3), 592–598. https://doi.org/10.1016/j.pain.2010.11.032
 
-2. Breimhorst, M., Sandrock, S., Fechir, M., Hausenblas, N., Geber, C., & Birklein, F. (2010). Do intensity ratings and skin conductance responses reliably discriminate between different stimulus intensities in experimentally induced pain? *Journal of Pain*, 12(1), 61–70. https://doi.org/10.1016/j.jpain.2010.04.012
+[2] Breimhorst, M., Sandrock, S., Fechir, M., Hausenblas, N., Geber, C., & Birklein, F. (2010). Do intensity ratings and skin conductance responses reliably discriminate between different stimulus intensities in experimentally induced pain? *Journal of Pain*, 12(1), 61–70. https://doi.org/10.1016/j.jpain.2010.04.012
 
-3. Boucsein, W. (2013). *Electrodermal activity* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4614-1126-0
+[3] Boucsein, W. (2013). *Electrodermal activity* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4614-1126-0
 
-4. Dascălu, L. C., Babiș, C., Chivu, O., Iacobescu, G., Alecusan, A. M., & Semenescu, A. (2019). Measurements of galvanic skin response on subjects affected by stress. *Acta Universitatis Cibiniensis Technical Series*, 71(1), 25–29. https://doi.org/10.2478/aucts-2019-0006
+[4]Dascălu, L. C., Babiș, C., Chivu, O., Iacobescu, G., Alecusan, A. M., & Semenescu, A. (2019). Measurements of galvanic skin response on subjects affected by stress. *Acta Universitatis Cibiniensis Technical Series*, 71(1), 25–29. https://doi.org/10.2478/aucts-2019-0006
 
-5. Phadke, A. N., Harasheh, K., & Gill, S. (2025). Wearable IoT-Enabled Galvanic Skin Response Device for objective pain and stress monitoring: hardware design and prototype development. *Sensors*, 26(1), 116. https://doi.org/10.3390/s26010116
+[5] Phadke, A. N., Harasheh, K., & Gill, S. (2025). Wearable IoT-Enabled Galvanic Skin Response Device for objective pain and stress monitoring: hardware design and prototype development. *Sensors*, 26(1), 116. https://doi.org/10.3390/s26010116
 
-6. Swetha, K., & Kiran, K. V. D. (2025). Kalman‐Normalized GSR Analysis for Real‐Time Stress Quantification in wearable systems. *International Journal of Telemedicine and Applications*, 2025(1), 8828363. https://doi.org/10.1155/ijta/8828363
+[6] Swetha, K., & Kiran, K. V. D. (2025). Kalman‐Normalized GSR Analysis for Real‐Time Stress Quantification in wearable systems. *International Journal of Telemedicine and Applications*, 2025(1), 8828363. https://doi.org/10.1155/ijta/8828363
 
-7. De Luca, P. A., Sánchez, A. M. E., Pérez Olan, G., & Leija Salas, L. (2004). Medición integral del estrés crónico. *Revista Mexicana de Ingeniería Biomédica*, 25(1), 60–66.
+[7] De Luca, P. A., Sánchez, A. M. E., Pérez Olan, G., & Leija Salas, L. (2004). Medición integral del estrés crónico. *Revista Mexicana de Ingeniería Biomédica*, 25(1), 60–66.
 
-8. Cruz, J. R. J., & Rivera, M. A. G. (2019). Estimación del estrés por medio de la entropía de la variabilidad de la frecuencia cardíaca y la respuesta galvánica de la piel. *Pistas Educativas*. https://pistaseducativas.celaya.tecnm.mx/index.php/pistas/article/view/2093
+[8] Cruz, J. R. J., & Rivera, M. A. G. (2019). Estimación del estrés por medio de la entropía de la variabilidad de la frecuencia cardíaca y la respuesta galvánica de la piel. *Pistas Educativas*. https://pistaseducativas.celaya.tecnm.mx/index.php/pistas/article/view/2093
 
-9. Sergio, A. R. (2016). Clasificación de niveles de estrés utilizando señales fisiológicas. https://e-archivo.uc3m.es/entities/publication/bf295ba9-911b-4bab-8632-cce450c21820
+[9] Sergio, A. R. (2016). Clasificación de niveles de estrés utilizando señales fisiológicas. https://e-archivo.uc3m.es/entities/publication/bf295ba9-911b-4bab-8632-cce450c21820
 
-10. Varón, D. J., García, I. B., & Gupta, B. B. (2023). Análisis del estrés, atención, interés y conexión emocional en la enseñanza superior presencial y online: un estudio neurotecnológico. *Dialnet*. https://dialnet.unirioja.es/servlet/articulo?codigo=8947684
+[10] Varón, D. J., García, I. B., & Gupta, B. B. (2023). Análisis del estrés, atención, interés y conexión emocional en la enseñanza superior presencial y online: un estudio neurotecnológico. *Dialnet*. https://dialnet.unirioja.es/servlet/articulo?codigo=8947684
 
-11. Vega, A., Bilbao, M., & Falappa, M. A. (2025). Workplace stress assessment using emotional recognition and heart rate techniques. https://sedici.unlp.edu.ar/handle/10915/178019
+[11] Vega, A., Bilbao, M., & Falappa, M. A. (2025). Workplace stress assessment using emotional recognition and heart rate techniques. https://sedici.unlp.edu.ar/handle/10915/178019
 
-12. Figner, B., & Murphy, R. O. (2011). Using skin conductance in judgment and decision making research. In *A Handbook of Process Tracing Methods for Decision Research* (pp. 163–184). Psychology Press.
+[12] Figner, B., & Murphy, R. O. (2011). Using skin conductance in judgment and decision making research. In *A Handbook of Process Tracing Methods for Decision Research* (pp. 163–184). Psychology Press.
 
-13. Webster, J. G. (2010). *Medical Instrumentation: Application and Design* (4th ed.). Wiley.
+[13] Webster, J. G. (2010). *Medical Instrumentation: Application and Design* (4th ed.). Wiley.
 
-14. International Electrotechnical Commission. (2018). *IEC 60479-1: Effects of current on human beings and livestock – Part 1: General aspects*.
+[14] International Electrotechnical Commission. (2018). *IEC 60479-1: Effects of current on human beings and livestock – Part 1: General aspects*.
 
 
 
