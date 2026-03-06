@@ -76,22 +76,6 @@ Las zonas con mayor densidad de glándulas sudoríparas son:
 
  Pero las más usadas para medir GSR son las yemas de los dedos, palmas de las manos, muñeca o axila, pero esta se somete a señal por movimiento.
 
- # MATERIALES
-
-· Arduino UNO o ESP32
-
-· Computador con MATLAB
-
-· Protoboard
-
-· Resistencia 68 kΩ
-
-· Condensador 1 µF
-
-· Electrodos Ag/AgCl o sensor que conduzca
-
-· Cables de conexión
-
 # DISEÑO DEL SISTEMA
 Para la elaboración de esta práctica de laboratorio se realizó el siguiente montaje para la captura de la señal de GSR:
 
