@@ -231,7 +231,8 @@ Con base en los valores medidos se definieron tres niveles de estrés:
 
 Se implementó transmisión inalámbrica utilizando un microcontrolador ESP [1][4][9].
 La señal de GSR puede contener ruido debido al movimiento del sujeto o a interferencias eléctricas para mejorar la calidad de visualizacion de la señal resultante  se aplicó en MATLAB un filtro digital Butterworth pasa-bajas con frecuencia de corte de 0.5 Hz, el cual permite eliminar variaciones rápidas que no corresponden a cambios fisiológicos reales como se puede observar en figura 6.
-<p align="center"> <p align="center"> <img width="260" height="340" alt="image" src="https://github.com/user-attachments/assets/423da712-bb5e-430d-8ebf-56f6a756dbd8" /> </p> <p align="center"> Fig. 4. Ubicacion de microcontrolador y fuente</p></p> <p align="center"> Fig. 6. Señal obtenida Vs Filtrada</p>
+<p align="center"> <img width="300" height="255" alt="image" src="https://github.com/user-attachments/assets/fc1dcdcc-599c-459b-ac0c-35fee98df807" />
+ <p align="center"> Fig. 6. Señal obtenida Vs Filtrada</p>
 Para estimar el nivel de estrés se definió primero una línea base individual durante los primeros segundos de la medición,a partir de este valor se clasificó la señal en tres niveles:
 
 Bajo: valores cercanos al nivel basal
