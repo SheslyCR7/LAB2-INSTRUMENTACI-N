@@ -108,9 +108,9 @@ El circuito funciona de la siguiente manera:
 
 Cuando la conductancia de la piel aumenta debido a la presencia de sudor, la resistencia de la piel disminuye y el voltaje medido en el divisor resistivo cambia. Esta variación de voltaje es leída por el microcontrolador, permitiendo registrar los cambios en la conductancia cutánea asociados a la actividad electrodérmica. [5][6]
 
-# 6. Cálculo de seguridad eléctrica
+#  Cálculo de seguridad eléctrica
 
-## 6.1 Análisis de la corriente máxima en el sistema
+##  Análisis de la corriente máxima en el sistema
 
 
 En dispositivos biomédicos que tienen contacto con el cuerpo humano es fundamental limitar la corriente que puede circular por el sujeto para evitar riesgos eléctricos. En este circuito se utiliza una resistencia de **68 kΩ** conectada en serie con la resistencia de la piel, la cual actúa como elemento limitador de corriente.
@@ -155,7 +155,7 @@ Esto corresponde aproximadamente a **49 µA**, lo cual es un valor muy bajo y se
 Por lo tanto, el circuito diseñado limita adecuadamente la corriente que puede circular por el sujeto, garantizando condiciones seguras de operación.
 
 
-## 6.2 Cumplimiento de normas de seguridad (IEC 60479)
+##  Cumplimiento de normas de seguridad (IEC 60479)
 
 La norma IEC 60479 describe los efectos que puede producir la corriente eléctrica cuando circula a través del cuerpo humano, estableciendo diferentes zonas de riesgo dependiendo de la magnitud de la corriente y del tiempo de exposición [14].
 
