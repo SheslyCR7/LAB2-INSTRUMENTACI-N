@@ -40,7 +40,7 @@ En esta práctica se desarrolló un sistema electrónico capaz de medir variacio
 
 La respuesta galvánica cutánea es un fenómeno fisiológico asociado a cambios en la conductancia eléctrica de la piel producidos por la actividad de las glándulas sudoríparas [3][4].
 
-<img width="800" height="640" alt="image" src="https://github.com/user-attachments/assets/45591249-676b-473a-931f-4ad144596885" />
+<p align="center"> <img width="800" height="640" alt="image" src="https://github.com/user-attachments/assets/45591249-676b-473a-931f-4ad144596885" /> </p> <p align="center"> Fig. 1.Respuesta GalvAnica Cutánea.
 
 
 Cuando una persona experimenta estrés o estímulos emocionales, el sistema nervioso simpático activa las glándulas sudoríparas ecrinas[3]. Esto incrementa la cantidad de sudor en la superficie de la piel, lo cual disminuye su resistencia eléctrica y aumenta la conductividad.[1][3]
@@ -59,7 +59,8 @@ Skin Conductance Response: cambios rápidos en la conductancia en respuesta a es
 
 Las glándulas sudoríparas ecrinas se encuentran distribuidas en toda la superficie de la piel, pero su densidad es mayor en ciertas regiones del cuerpo [3].
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/ae2ef1db-0e7e-44b9-ad91-171ce49c65e3" />
+<p align="center"> <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/ae2ef1db-0e7e-44b9-ad91-171ce49c65e3" /> </p> <p align="center"> Fig. 2. Piel y Glandulas sudoriparas.
+
 
 
 Las zonas con mayor densidad de glándulas sudoríparas son:
@@ -85,13 +86,13 @@ Las zonas con mayor densidad de glándulas sudoríparas son:
 # DISEÑO DEL SISTEMA
 Para la elaboración de esta práctica de laboratorio se realizó el siguiente montaje para la captura de la señal de GSR:
 
-<p align="center"> <img width="253" height="253" alt="image" src="https://github.com/user-attachments/assets/f8f58cac-d576-49e8-98c9-3aae4ef29f0c" /> </p> <p align="center"> Fig. 1. Montaje del circuito para la captura de GSR </p>
+<p align="center"> <img width="253" height="253" alt="image" src="https://github.com/user-attachments/assets/f8f58cac-d576-49e8-98c9-3aae4ef29f0c" /> </p> <p align="center"> Fig. 3. Montaje del circuito para la captura de GSR </p>
 
 Para el diseño ergonómico del sistema mostrado en la Figura 1 se utilizó un microcontrolador ESP32  y como fuente 3 pila AAA los cuales estaban ubicados en una cinta velcro para adaparla al brazo como se muestra en la figura 2,y un sensor de humedad del suelo YL-100 adaptado en la palma de la mano para medir variaciones en la conductancia de la piel como se observa en la figuras 3.
 
-<p align="center"> <img width="260" height="340" alt="image" src="https://github.com/user-attachments/assets/423da712-bb5e-430d-8ebf-56f6a756dbd8" /> </p> <p align="center"> Fig. 2. Ubicacion de microcontrolador y fuente</p>
+<p align="center"> <img width="260" height="340" alt="image" src="https://github.com/user-attachments/assets/423da712-bb5e-430d-8ebf-56f6a756dbd8" /> </p> <p align="center"> Fig. 4. Ubicacion de microcontrolador y fuente</p>
 <p align="center"> <img width="253" height="350" alt="image" src="https://github.com/user-attachments/assets/e14c7ebe-27bc-4b1c-860f-9c887c4defbc" />
- </p> <p align="center"> Fig. 3. Ubicacion del sensor</p>
+ </p> <p align="center"> Fig. 5. Ubicacion del sensor</p>
 
 El sistema de medición se basa en un divisor resistivo, donde la piel del sujeto actúa como una resistencia variable.
 
@@ -250,6 +251,7 @@ En las primeras pruebas realizadas en condiciones de reposo se observó una señ
 
 
 https://github.com/user-attachments/assets/b86e63c6-e24e-4731-a15f-1e6b5f19fdb3
+ <p align="center"> Fig. 6. Señal en tiempo real </p>
 
 
 
