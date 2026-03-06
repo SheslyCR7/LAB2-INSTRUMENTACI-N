@@ -35,7 +35,7 @@ En esta práctica se desarrolló un sistema electrónico capaz de medir variacio
 
 • Plantear hipótesis desde la fisiología humana sobre el rol de la GSR como indicador de estrés.
 
-# MARCO TEORICO
+# MARCO TEÓRICO
 ### Respuesta galvánica cutánea (GSR)
 
 La respuesta galvánica cutánea es un fenómeno fisiológico asociado a cambios en la conductancia eléctrica de la piel producidos por la actividad de las glándulas sudoríparas [3][4].
@@ -59,7 +59,7 @@ Skin Conductance Response: cambios rápidos en la conductancia en respuesta a es
 
 Las glándulas sudoríparas ecrinas se encuentran distribuidas en toda la superficie de la piel, pero su densidad es mayor en ciertas regiones del cuerpo [3].
 
-<p align="center"> <img width="253" height="300" alt="image" src="https://github.com/user-attachments/assets/ae2ef1db-0e7e-44b9-ad91-171ce49c65e3" /> </p> <p align="center"> Fig. 2. Piel y Glandulas sudoriparas.
+<p align="center"> <img width="253" height="300" alt="image" src="https://github.com/user-attachments/assets/ae2ef1db-0e7e-44b9-ad91-171ce49c65e3" /> </p> <p align="center"> Fig. 2. Piel y Glándulas sudoríparas.
 
 
 
@@ -88,11 +88,11 @@ Para la elaboración de esta práctica de laboratorio se realizó el siguiente m
 
 <p align="center"> <img width="253" height="253" alt="image" src="https://github.com/user-attachments/assets/f8f58cac-d576-49e8-98c9-3aae4ef29f0c" /> </p> <p align="center"> Fig. 3. Montaje del circuito para la captura de GSR </p>
 
-Para el diseño ergonómico del sistema mostrado en la Figura 1 se utilizó un microcontrolador ESP32  y como fuente 3 pila AAA los cuales estaban ubicados en una cinta velcro para adaparla al brazo como se muestra en la figura 2,y un sensor de humedad del suelo YL-100 adaptado en la palma de la mano para medir variaciones en la conductancia de la piel como se observa en la figuras 3.
+Para el diseño ergonómico del sistema mostrado en la Figura 3 se utilizó un microcontrolador ESP32  y como fuente tres pilas AAA los cuales estaban ubicados en una cinta de velcro para adaparla al brazo como se muestra en la figura 3,y un sensor de humedad del suelo YL-100 adaptado en la palma de la mano para medir variaciones en la conductancia de la piel como se observa en la figuras 4.
 
-<p align="center"> <img width="260" height="340" alt="image" src="https://github.com/user-attachments/assets/423da712-bb5e-430d-8ebf-56f6a756dbd8" /> </p> <p align="center"> Fig. 4. Ubicacion de microcontrolador y fuente</p>
+<p align="center"> <img width="260" height="340" alt="image" src="https://github.com/user-attachments/assets/423da712-bb5e-430d-8ebf-56f6a756dbd8" /> </p> <p align="center"> Fig. 4. Ubicación de microcontrolador y fuente</p>
 <p align="center"> <img width="253" height="350" alt="image" src="https://github.com/user-attachments/assets/e14c7ebe-27bc-4b1c-860f-9c887c4defbc" />
- </p> <p align="center"> Fig. 5. Ubicacion del sensor</p>
+ </p> <p align="center"> Fig. 5. Ubicación del sensor</p>
 
 El sistema de medición se basa en un divisor resistivo, donde la piel del sujeto actúa como una resistencia variable.
 
@@ -262,7 +262,7 @@ https://github.com/user-attachments/assets/7665dfa2-5b6c-4183-a7b9-f6e09f3210e1
 
 Al momento de la presentación final del laboratorio se presentó una limitación experimental importante, ya que el sensor utilizado sufrió un deterioro que provocó una alta sensibilidad al ruido eléctrico y a las variaciones de contacto con la piel. Como consecuencia, la señal registrada presentó fluctuaciones irregulares y picos abruptos que no correspondían a cambios fisiológicos reales del sujeto.
 
-Este comportamiento fue causado por que el sensor tuvo un daño en sus pines de conexión, por ende, al ser al ultimo minuto toco improvisar y soldar con cable de protoboard, esto hizo que el sensor fuera mucho más sensible, por eso al momento de tomar la señal aparecian picos o saturaciones sin sentido.
+Este comportamiento fue causado por que el sensor tuvo un daño en sus pines de conexión, por ende, al ser al ultimo minuto toco improvisar y soldar con cable de protoboard, esto hizo que el sensor fuera mucho más sensible, por eso al momento de tomar la señal aparecían picos o saturaciones sin sentido.
 
 A pesar de esta limitación, el sistema permitió evidenciar el principio fundamental de funcionamiento de la medición de GSR: los cambios en la actividad del sistema nervioso autónomo se reflejan en variaciones en la conductancia eléctrica de la piel. Además, se pudo observar que estímulos fisiológicos como la respiración profunda generan incrementos transitorios en la señal, seguidos por un retorno gradual al nivel basal, lo cual coincide con el comportamiento descrito en estudios sobre actividad electrodérmica [1][3].
 
