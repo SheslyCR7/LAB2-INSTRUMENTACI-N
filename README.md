@@ -320,7 +320,5 @@ En general, la GSR es una herramienta √∫til para evaluar cambios en la activaci√
 
 
 
-INTEGRANTES: Shesly Colorado - Santiago Mora  - Daniel Herrera
-
 
 
