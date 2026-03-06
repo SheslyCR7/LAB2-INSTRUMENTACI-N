@@ -230,14 +230,15 @@ Con base en los valores medidos se definieron tres niveles de estrés:
 # PARTE C
 
 Se implementó transmisión inalámbrica utilizando un microcontrolador ESP [1][4][9].
+La señal de GSR puede contener ruido debido al movimiento del sujeto o a interferencias eléctricas para mejorar la calidad de visualizacion de la señal resultante  se aplicó en MATLAB un filtro digital Butterworth pasa-bajas con frecuencia de corte de 0.5 Hz, el cual permite eliminar variaciones rápidas que no corresponden a cambios fisiológicos reales como se puede observar en figura 6.
+<p align="center"> <p align="center"> <img width="260" height="340" alt="image" src="https://github.com/user-attachments/assets/423da712-bb5e-430d-8ebf-56f6a756dbd8" /> </p> <p align="center"> Fig. 4. Ubicacion de microcontrolador y fuente</p></p> <p align="center"> Fig. 6. Señal obtenida Vs Filtrada</p>
+Para estimar el nivel de estrés se definió primero una línea base individual durante los primeros segundos de la medición,a partir de este valor se clasificó la señal en tres niveles:
 
-El sistema envía un mensaje indicando el nivel de estrés:
+Bajo: valores cercanos al nivel basal
 
-· Bajo
+Medio: incremento moderado respecto al basal
 
-· Medio
-
-· Alto
+Alto: incremento significativo en la señal
 
 Durante la prueba, el sujeto respiró bruscamente mientras se registraba la señal GSR.
 
@@ -250,8 +251,11 @@ En las primeras pruebas realizadas en condiciones de reposo se observó una señ
 
 
 
-https://github.com/user-attachments/assets/b86e63c6-e24e-4731-a15f-1e6b5f19fdb3
- <p align="center"> Fig. 6. Señal en tiempo real </p>
+
+https://github.com/user-attachments/assets/7665dfa2-5b6c-4183-a7b9-f6e09f3210e1
+
+
+ <p align="center"> Fig. 7. Señal en tiempo real </p>
 
 
 
