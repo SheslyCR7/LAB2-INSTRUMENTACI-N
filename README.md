@@ -1,5 +1,23 @@
-# LAB2-INSTRUMENTACION
+# Instrumentación Biomédica y Biosensores 
+ LABORATORIO - 2 Estimación del nivel de estrés basada en la respuesta galvánica cutánea (GSR) 
 
+###  Integrantes
+- Shesly Nicole Colorado - 5600756
+- Santiago Mora - 5600775
+- Daniel Herrera - 5600588
+
+
+## Requisitos
+ Hardware:
+ - Arduino IDE
+ - Matlab
+   
+  Software:
+ - Sensor FSR 402
+ - ESP32
+
+----
+# 1.  I
 
 # INTRODUCIÓN
 
@@ -226,7 +244,16 @@ El sistema envía un mensaje indicando el nivel de estrés:
 Durante la prueba, el sujeto respiro bruscamente mientras se registraba la señal GSR.
 
 Se observó un aumento significativo en la conductancia durante los momentos de mayor concentración.
+# MONTAJE EXPERIMENTAL
+Para la elaboracíon de esta practica de laboratorio se realizo el siguiente montaje para la captura del GRS:
+<p align="center">
+  <img width="395" height="253" alt="image" src="https://github.com/user-attachments/assets/f8f58cac-d576-49e8-98c9-3aae4ef29f0c" />
 
+</p>
+<p align="center">
+Fig 1. Montaje circuito para la captura de GRS
+ </p>
+  Para el diñeno ergonomico del montaje mostrado en la figura 1 utilizamos una ESP32 y un sensor de humedad del suelo YL-100 ,para 
 # ANALISIS DE RESULTADOS
 
 # PREGUNTAS DE DISCUSIÒN 
