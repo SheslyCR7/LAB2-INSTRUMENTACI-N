@@ -300,6 +300,21 @@ A pesar de estas limitaciones, la práctica permitió comprender aspectos import
 Finalmente, se concluye que la medición de la respuesta galvánica cutánea es una técnica útil para observar cambios fisiológicos relacionados con la activación del sistema nervioso simpático. No obstante, para obtener resultados más estables sería recomendable utilizar electrodos diseñados específicamente para mediciones GSR, como electrodos Ag/AgCl, y evitar modificar físicamente los sensores para no afectar su funcionamiento.
 
 
+
+# Aplicaciones biomedicas del sistema 
+
+
+La medición de la respuesta galvánica cutánea (GSR) es una técnica que permite observar cambios en la conductancia eléctrica de la piel, los cuales están relacionados con la actividad del sistema nervioso autónomo. Debido a esto, este tipo de sistemas puede tener varias aplicaciones dentro del campo biomédico.
+
+Una de las aplicaciones más comunes es el **monitoreo del estrés**. Cuando una persona experimenta estrés o una carga mental elevada, el sistema nervioso simpático se activa y aumenta la actividad de las glándulas sudoríparas. Esto genera cambios en la conductancia de la piel que pueden ser detectados por sensores como el utilizado en esta práctica. Por esta razón, la GSR se usa con frecuencia en estudios relacionados con estrés, ansiedad o respuesta emocional.
+
+Otra aplicación importante se encuentra en el área de la **psicofisiología**, donde se estudia cómo reacciona el cuerpo ante diferentes estímulos. En este tipo de investigaciones, la señal GSR se utiliza para analizar las respuestas fisiológicas frente a estímulos emocionales, tareas cognitivas o situaciones que requieren concentración.
+
+Además, este tipo de sistemas también puede implementarse en **dispositivos portátiles o vestibles** para monitorear el estado fisiológico de una persona. Actualmente existen dispositivos que combinan sensores de conductancia de la piel con otras mediciones como frecuencia cardíaca o temperatura corporal, con el fin de obtener información más completa sobre el estado del organismo.
+
+Finalmente, la respuesta galvánica cutánea también puede utilizarse en **aplicaciones de biofeedback**, donde las personas pueden observar sus propias señales fisiológicas en tiempo real y aprender a controlar ciertos estados como el estrés o la ansiedad. De esta manera, sistemas como el desarrollado en esta práctica pueden servir como base para futuras aplicaciones en monitoreo fisiológico y desarrollo de tecnologías biomédicas.
+
+
 # REFERENCIAS 
 
 [1] Loggia, M. L., Juneau, M., & Bushnell, C. M. (2011). Autonomic responses to heat pain: Heart rate, skin conductance, and their relation to verbal ratings and stimulus intensity. *Pain*, 152(3), 592–598. https://doi.org/10.1016/j.pain.2010.11.032
