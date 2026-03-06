@@ -18,11 +18,11 @@ Hardware:
 ----
 # INTRODUCCIÓN
 
-La actividad electrodérmica (EDA) hace referencia a los cambios eléctricos que ocurren en la piel debido a la actividad del sistema nervioso autónomo. Estos cambios están asociados principalmente con la actividad de las glándulas sudoríparas y pueden medirse a través de la conductancia cutánea, también conocida como respuesta galvánica de la piel (GSR).
+La actividad electrodérmica (EDA) hace referencia a los cambios eléctricos que ocurren en la piel debido a la actividad del sistema nervioso autónomo. Estos cambios están asociados principalmente con la actividad de las glándulas sudoríparas y pueden medirse a través de la conductancia cutánea, también conocida como respuesta galvánica de la piel (GSR). [3][4]
 
-La conductancia cutánea aumenta cuando el sistema nervioso simpático se activa, lo que ocurre durante estados emocionales intensos como estrés, ansiedad o excitación. Esto se debe a que la activación simpática provoca la secreción de sudor en las glándulas sudoríparas, reduciendo la resistencia eléctrica de la piel y aumentando su conductividad.
+La conductancia cutánea aumenta cuando el sistema nervioso simpático se activa, lo que ocurre durante estados emocionales intensos como estrés, ansiedad o excitación[1][3][7]. Esto se debe a que la activación simpática provoca la secreción de sudor en las glándulas sudoríparas, reduciendo la resistencia eléctrica de la piel y aumentando su conductividad.[3][4]
 
-En esta práctica se desarrolló un sistema electrónico capaz de medir variaciones en la conductancia cutánea mediante un sensor de humedad colocado en la piel y un circuito de adquisición basado en Arduino/ESP, y una resistencia y capacitor en paralelo, permitiendo monitorear cambios asociados a estados fisiológicos del sujeto. La práctica permite comprender tanto los principios fisiológicos como los aspectos electrónicos de la medición de señales biomédicas.
+En esta práctica se desarrolló un sistema electrónico capaz de medir variaciones en la conductancia cutánea mediante un sensor de humedad colocado en la piel y un circuito de adquisición basado en Arduino/ESP, y una resistencia y capacitor en paralelo, permitiendo monitorear cambios asociados a estados fisiológicos del sujeto [5][6]. La práctica permite comprender tanto los principios fisiológicos como los aspectos electrónicos de la medición de señales biomédicas.
 
 # OBJETIVOS
 ## Objetivo general
@@ -38,11 +38,11 @@ En esta práctica se desarrolló un sistema electrónico capaz de medir variacio
 # MARCO TEORICO
 ### Respuesta galvánica cutánea (GSR)
 
-La respuesta galvánica cutánea es un fenómeno fisiológico asociado a cambios en la conductancia eléctrica de la piel producidos por la actividad de las glándulas sudoríparas.
+La respuesta galvánica cutánea es un fenómeno fisiológico asociado a cambios en la conductancia eléctrica de la piel producidos por la actividad de las glándulas sudoríparas. [3][4]
 
-Cuando una persona experimenta estrés o estímulos emocionales, el sistema nervioso simpático activa las glándulas sudoríparas ecrinas. Esto incrementa la cantidad de sudor en la superficie de la piel, lo cual disminuye su resistencia eléctrica y aumenta la conductividad.
+Cuando una persona experimenta estrés o estímulos emocionales, el sistema nervioso simpático activa las glándulas sudoríparas ecrinas[3]. Esto incrementa la cantidad de sudor en la superficie de la piel, lo cual disminuye su resistencia eléctrica y aumenta la conductividad.[1][3]
 
-La señal GSR tiene dos componentes principales:
+La señal GSR tiene dos componentes principales [3]:
 
 • Componente tónica (SCL)
 
@@ -54,7 +54,7 @@ Skin Conductance Response: cambios rápidos en la conductancia en respuesta a es
 
 ### Glándulas sudoríparas y medición de GSR
 
-Las glándulas sudoríparas ecrinas se encuentran distribuidas en toda la superficie de la piel, pero su densidad es mayor en ciertas regiones del cuerpo.
+Las glándulas sudoríparas ecrinas se encuentran distribuidas en toda la superficie de la piel, pero su densidad es mayor en ciertas regiones del cuerpo [3].
 
 Las zonas con mayor densidad de glándulas sudoríparas son:
 
@@ -74,7 +74,7 @@ Las zonas con mayor densidad de glándulas sudoríparas son:
 
  • Espalda
 
- Pero las más usadas para medir GSR son las yemas de los dedos, palmas de las manos, muñeca o axila, pero esta se somete a señal por movimiento.
+ Pero las más usadas para medir GSR son las yemas de los dedos, palmas de las manos, muñeca o axila, pero esta se somete a señal por movimiento [3][8].
 
 # DISEÑO DEL SISTEMA
 Para la elaboración de esta práctica de laboratorio se realizó el siguiente montaje para la captura de la señal de GSR:
@@ -99,7 +99,7 @@ Un capacitor de 1 µF para el filtrado de ruido
 
 El circuito funciona de la siguiente manera:
 
-Cuando la conductancia de la piel aumenta debido a la presencia de sudor, la resistencia de la piel disminuye y el voltaje medido en el divisor resistivo cambia. Esta variación de voltaje es leída por el microcontrolador, permitiendo registrar los cambios en la conductancia cutánea asociados a la actividad electrodérmica.
+Cuando la conductancia de la piel aumenta debido a la presencia de sudor, la resistencia de la piel disminuye y el voltaje medido en el divisor resistivo cambia. Esta variación de voltaje es leída por el microcontrolador, permitiendo registrar los cambios en la conductancia cutánea asociados a la actividad electrodérmica. [5][6]
 
 # 6. Cálculo de seguridad eléctrica
 
@@ -165,7 +165,7 @@ Teniendo en cuenta lo anterior, se puede afirmar que el diseño del circuito cum
 # PARTE A
 ## Revisión bibliográfica
 
-La actividad electrodérmica es una de las respuestas fisiológicas más utilizadas para evaluar la activación del sistema nervioso autónomo. La medición de la GSR permite identificar estados emocionales y de estrés mediante cambios en la conductancia de la piel.
+La actividad electrodérmica es una de las respuestas fisiológicas más utilizadas para evaluar la activación del sistema nervioso autónomo [3][4]. La medición de la GSR permite identificar estados emocionales y de estrés mediante cambios en la conductancia de la piel [1][9].
 
 ### Efectos de la corriente en el cuerpo humano
 
@@ -191,7 +191,7 @@ El dispositivo se diseñó utilizando:
 
 · Transmisión de datos al computador por vía bluetooth
 
-El sensor se ubica en los dedos índice y medio para maximizar la sensibilidad del sensor.
+El sensor se ubica en los dedos índice y medio para maximizar la sensibilidad del sensor [3][5].
 
 # PARTE B
 
@@ -207,7 +207,7 @@ Se realizaron pruebas con un sujeto en reposo y durante diferentes actividades:
 
 · Movimiento de la mano
 
-Se observó que durante la respiración profunda se produce un aumento en la conductancia cutánea seguido de un retorno gradual al nivel basal.
+Se observó que durante la respiración profunda se produce un aumento en la conductancia cutánea seguido de un retorno gradual al nivel basal [1][4].
 
 Con base en los valores medidos se definieron tres niveles de estrés:
 <p align="center">
@@ -222,7 +222,7 @@ Con base en los valores medidos se definieron tres niveles de estrés:
 
 # PARTE C
 
-Se implementó transmisión inalámbrica utilizando un microcontrolador ESP.
+Se implementó transmisión inalámbrica utilizando un microcontrolador ESP [1][4][9].
 
 El sistema envía un mensaje indicando el nivel de estrés:
 
