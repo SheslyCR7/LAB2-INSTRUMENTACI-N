@@ -293,16 +293,11 @@ En general, la GSR es una herramienta útil para evaluar cambios en la activaci�
 
 # Conclusiones
 
-### 
-Durante el desarrollo de la práctica se logró diseñar e implementar un sistema básico para la medición de la respuesta galvánica cutánea (GSR) utilizando un microcontrolador ESP32, una resistencia limitadora, un condensador y un sensor de humedad YL-100 como elemento de contacto con la piel. Este sistema permitió comprender el principio de funcionamiento de los biosensores que miden cambios en la conductancia de la piel asociados con la actividad del sistema nervioso autónomo.
+Durante la práctica se diseñó e implementó un sistema básico para medir la respuesta galvánica cutánea (GSR) utilizando un microcontrolador ESP32, una resistencia limitadora, un condensador y un sensor de humedad YL-100 en contacto con la piel. Este sistema permitió comprender cómo funcionan los biosensores que detectan cambios en la conductancia de la piel asociados con la actividad del sistema nervioso autónomo.
 
-Sin embargo, durante la realización del experimento se presentaron dificultades relacionadas con el sensor utilizado. Con el objetivo de hacerlo más cómodo para su uso en la mano, se intentó reducir el tamaño del sensor de humedad YL-100. Esta modificación afectó el contacto eléctrico entre los electrodos y el circuito, generando una señal inestable. Como resultado, el sistema en algunos momentos lograba medir variaciones en la señal, pero en otras ocasiones producía valores erróneos o dejaba de funcionar correctamente.
+Sin embargo, se presentaron dificultades con el sensor. Al intentar reducir su tamaño para hacerlo más cómodo en la mano, se afectó el contacto eléctrico entre los electrodos y el circuito, lo que generó una señal inestable. En algunos momentos el sistema lograba medir variaciones correctamente, pero en otros producía valores erróneos o dejaba de funcionar.
 
-Este comportamiento evidenció la importancia de mantener una buena integridad física y eléctrica en los sensores biomédicos, ya que pequeñas alteraciones en los electrodos o en los puntos de contacto pueden afectar significativamente la calidad de la señal obtenida. En sistemas de medición fisiológica, un mal contacto con la piel o conexiones deficientes pueden generar ruido, variaciones inesperadas o incluso pérdida de la señal.
-
-A pesar de estas limitaciones, la práctica permitió comprender aspectos importantes del diseño de sistemas de instrumentación biomédica, como la necesidad de limitar la corriente que circula por el cuerpo humano, el uso de filtros para estabilizar la señal y la importancia de la correcta ubicación de los electrodos para obtener mediciones más confiables.
-
-Finalmente, se concluye que la medición de la respuesta galvánica cutánea es una técnica útil para observar cambios fisiológicos relacionados con la activación del sistema nervioso simpático. No obstante, para obtener resultados más estables sería recomendable utilizar electrodos diseñados específicamente para mediciones GSR, como electrodos Ag/AgCl, y evitar modificar físicamente los sensores para no afectar su funcionamiento.
+A pesar de esto, la práctica permitió entender la importancia de mantener una buena integridad física y eléctrica en los sensores, así como de limitar la corriente que circula por el cuerpo y ubicar correctamente los electrodos para obtener mediciones confiables. Finalmente, se concluye que la GSR es una técnica útil para observar cambios fisiológicos relacionados con la activación del sistema nervioso simpático, aunque para obtener resultados más estables sería recomendable utilizar electrodos diseñados específicamente para este tipo de mediciones.
 
 
 
