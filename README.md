@@ -13,7 +13,7 @@
  - Matlab
    
   Software:
- - Sensor FSR 402
+ - Sensor de humedad del suelo YL-100
  - ESP32
 
 ----
