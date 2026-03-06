@@ -38,7 +38,10 @@ En esta práctica se desarrolló un sistema electrónico capaz de medir variacio
 # MARCO TEORICO
 ### Respuesta galvánica cutánea (GSR)
 
-La respuesta galvánica cutánea es un fenómeno fisiológico asociado a cambios en la conductancia eléctrica de la piel producidos por la actividad de las glándulas sudoríparas. [3][4]
+La respuesta galvánica cutánea es un fenómeno fisiológico asociado a cambios en la conductancia eléctrica de la piel producidos por la actividad de las glándulas sudoríparas [3][4].
+
+<img width="800" height="640" alt="image" src="https://github.com/user-attachments/assets/45591249-676b-473a-931f-4ad144596885" />
+
 
 Cuando una persona experimenta estrés o estímulos emocionales, el sistema nervioso simpático activa las glándulas sudoríparas ecrinas[3]. Esto incrementa la cantidad de sudor en la superficie de la piel, lo cual disminuye su resistencia eléctrica y aumenta la conductividad.[1][3]
 
@@ -55,6 +58,9 @@ Skin Conductance Response: cambios rápidos en la conductancia en respuesta a es
 ### Glándulas sudoríparas y medición de GSR
 
 Las glándulas sudoríparas ecrinas se encuentran distribuidas en toda la superficie de la piel, pero su densidad es mayor en ciertas regiones del cuerpo [3].
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/ae2ef1db-0e7e-44b9-ad91-171ce49c65e3" />
+
 
 Las zonas con mayor densidad de glándulas sudoríparas son:
 
