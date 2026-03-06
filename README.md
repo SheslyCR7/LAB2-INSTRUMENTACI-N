@@ -40,7 +40,7 @@ En esta práctica se desarrolló un sistema electrónico capaz de medir variacio
 
 La respuesta galvánica cutánea es un fenómeno fisiológico asociado a cambios en la conductancia eléctrica de la piel producidos por la actividad de las glándulas sudoríparas [3][4].
 
-<p align="center"> <img width="800" height="640" alt="image" src="https://github.com/user-attachments/assets/45591249-676b-473a-931f-4ad144596885" /> </p> <p align="center"> Fig. 1.Respuesta GalvAnica Cutánea [15].
+<p align="center"> <img width="800" height="640" alt="image" src="https://github.com/user-attachments/assets/45591249-676b-473a-931f-4ad144596885" /> </p> <p align="center"> Fig. 1.Respuesta Galvánica Cutánea [15].
 
 
 Cuando una persona experimenta estrés o estímulos emocionales, el sistema nervioso simpático activa las glándulas sudoríparas ecrinas[3]. Esto incrementa la cantidad de sudor en la superficie de la piel, lo cual disminuye su resistencia eléctrica y aumenta la conductividad.[1][3]
