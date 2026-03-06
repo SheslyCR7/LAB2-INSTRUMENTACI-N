@@ -8,16 +8,15 @@
 
 
 ## Requisitos
- Hardware:
- - Arduino IDE
- - Matlab
-   
-  Software:
- - Sensor de humedad del suelo YL-100
- - ESP32
+Software:
+- Arduino IDE
+- MATLAB
 
+Hardware:
+- Sensor de humedad del suelo YL-100
+- ESP32
 ----
-# INTRODUCIÓN
+# INTRODUCCIÓN
 
 La actividad electrodérmica (EDA) hace referencia a los cambios eléctricos que ocurren en la piel debido a la actividad del sistema nervioso autónomo. Estos cambios están asociados principalmente con la actividad de las glándulas sudoríparas y pueden medirse a través de la conductancia cutánea, también conocida como respuesta galvánica de la piel (GSR).
 
@@ -29,7 +28,7 @@ En esta práctica se desarrolló un sistema electrónico capaz de medir variacio
 ## Objetivo general
  Proporcionar un sistema de medición continua de estrés basado en respuesta galvánica cutánea (GSR).
 
-## Objetivos especificos
+## Objetivos específicos
 • Identificar las componentes estacionaria y transitoria de la GSR.
 
 • Elaborar un dispositivo vestible que permita capturar de forma continua las variaciones de la GSR.
@@ -75,7 +74,7 @@ Las zonas con mayor densidad de glándulas sudoríparas son:
 
  • Espalda
 
- Pero las màs usadas para medir GSR son las yemas de los dedos, palmas de las manos, muñeca o axila, pero esta se somete a señal por movimiento.
+ Pero las más usadas para medir GSR son las yemas de los dedos, palmas de las manos, muñeca o axila, pero esta se somete a señal por movimiento.
 
  # MATERIALES
 
@@ -89,7 +88,7 @@ Las zonas con mayor densidad de glándulas sudoríparas son:
 
 · Condensador 1 µF
 
-· Electrodos Ag/AgCl o sensor que condusca
+· Electrodos Ag/AgCl o sensor que conduzca
 
 · Cables de conexión
 
@@ -206,7 +205,7 @@ El dispositivo se diseñó utilizando:
 
 · Microcontrolador ESP/Arduino
 
-· Transmisión de datos al computador por via blut
+· Transmisión de datos al computador por vía bluetooth
 
 El sensor se ubica en los dedos índice y medio para maximizar la sensibilidad del sensor.
 
@@ -227,14 +226,15 @@ Se realizaron pruebas con un sujeto en reposo y durante diferentes actividades:
 Se observó que durante la respiración profunda se produce un aumento en la conductancia cutánea seguido de un retorno gradual al nivel basal.
 
 Con base en los valores medidos se definieron tres niveles de estrés:
+<p align="center">
 
-Nivel	      /       Conductancia
+| Nivel | Conductancia |
+|:---:|:---:|
+| Bajo | Nivel basal |
+| Moderado | Incremento leve |
+| Alto | Incremento significativo |
 
-Bajo        /     	Nivel basal
-
-Moderado	  /     Incremento leve
-
-Alto	      /  Incremento significativo
+</p>
 
 # PARTE C
 
@@ -248,12 +248,12 @@ El sistema envía un mensaje indicando el nivel de estrés:
 
 · Alto
 
-Durante la prueba, el sujeto respiro bruscamente mientras se registraba la señal GSR.
+Durante la prueba, el sujeto respiró bruscamente mientras se registraba la señal GSR.
 
 Se observó un aumento significativo en la conductancia durante los momentos de mayor concentración.
 # ANALISIS DE RESULTADOS
 
-# PREGUNTAS DE DISCUSIÒN 
+# PREGUNTAS DE DISCUSIÓN 
 ### Pregunta 1: ¿A qué se debe que una inspiración profunda incremente la magnitud de la respuesta galvánica cutánea (GSR)?
 
 Cuando una persona realiza una inspiración profunda se activa el sistema nervioso autónomo, especialmente la rama simpática. Esta activación genera cambios fisiológicos en el cuerpo, entre ellos un aumento en la actividad de las glándulas sudoríparas presentes en la piel.
